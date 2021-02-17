@@ -1,14 +1,3 @@
-// let colorPicker;
-// function setup() {
-//   createCanvas(100, 100);
-//   colorPicker = createColorPicker('#ed225d');
-//   colorPicker.position(0, height + 5);
-// }
-
-// function draw() {
-//   background(colorPicker.color());
-// }
-
 var x1;
 var x2;
 var y1;
@@ -16,11 +5,11 @@ var y2;
 let colorPicker;
 
 function setup() {
-  const canvas = createCanvas(1000, 700);
+  const canvas = createCanvas(1200, 700);
   background(51);
   colorPicker = createColorPicker('#ffffff');
-  colorPicker.position(width/2 - 50, height + 5);
-  canvas.parent("sketch");
+  // colorPicker.position(width/2 - 50, height + 5);
+  // canvas.parent("sketch");
 }
 
 function draw() {

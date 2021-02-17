@@ -8,6 +8,12 @@
       body {
         padding: 0;
         margin: 0;
+        display: flex;
+        flex-direction: column;
+      }
+
+      body > * {
+        margin:auto;
       }
     </style>
     <script src="libraries/p5.js"></script>
@@ -17,5 +23,9 @@
   </head>
   <body oncontextmenu="return false;">
     <div id="sketch" ></div>
+    <p>Draw by holding down the left mouse button.</p>
+    <p>You can erase with the right mouse button.</p>
+    <p>To cleare the whole drawing, press the space bar.</p>
+    <p>You can select the color of your pen with the color picker under the canvas.</p>
   </body>
 </html>
